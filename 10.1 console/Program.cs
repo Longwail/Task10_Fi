@@ -32,12 +32,12 @@ namespace _10._1_console
             using (StreamWriter sw = new StreamWriter(t1, false))
             {
                 Console.WriteLine("Создан файл t1.txt");
-                sw.Write("Иванов Иван Иванович, 1965 года рождения, место жительства г. Саратов");
+                sw.Write("Пахоменко Владислав Васильевич, 2004 года рождения, место жительства г. Владимир");
             }
             using (StreamWriter sw = new StreamWriter(t2, false))
             {
                 Console.WriteLine("Создан файл t2.txt");
-                sw.Write("Петров Сергей Федорович, 1966 года рождения, место жительства г.Энгельс");
+                sw.Write("Пахоменко Василий Васильевич, 1976 года рождения, место жительства г.Владимир");
             }
             using (StreamWriter sw = new StreamWriter(t3, false))
             {
